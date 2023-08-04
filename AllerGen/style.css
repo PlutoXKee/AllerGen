@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hamburger-menu {
+  display: flex;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  font-size: 25px;
+  text-align: center;
+}
+
+.profile-info h1 {
+  margin-top: 0;
+}
+
+.profile-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-info li {
+}
+
+.profile-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
