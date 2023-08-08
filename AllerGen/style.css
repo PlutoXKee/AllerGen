@@ -25,7 +25,6 @@ a {
 
 #hamburger-menu {
   display: flex;
-  position: absolute;
 }
 
 #hamburger-submenu {

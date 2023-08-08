@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AllerGen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hamburger-menu">
+      <img width="50px" src="../images/hamburger.png" />
+    </div>
+    <div id="hamburger-submenu">
+      <ul>
+        <li><a href="places.html" class="list-element">Places</a></li>
+        <li><a href="#address" class="list-element">Address</a></li>
+        <li><a href="../index.html" class="list-element">Profile</a></li>
+      </ul>
+    </div>
+
+    <div class="settings-supercontainer">
+      <div id="preference-container" class="preference-container">
+        <h1>Dietary Restrictions</h1>
+        <label for="allergens">Select a restriction:</label>
+        <select name="allergens" id="allergens0">
+          <option value="" selected disabled>Please select</option>
+          <option value="peanuts">Peanuts</option>
+          <option value="dairy">Dairy</option>
+          <option value="treeNuts">Tree Nuts</option>
+          <option value="eggs">Eggs</option>
+          <option value="shellfish">Shellfish</option>
+          <option value="wheat">Wheat</option>
+          <option value="fish">Fish</option>
+          <option value="soy">Soy</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

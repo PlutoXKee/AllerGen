@@ -1,0 +1,38 @@
+#saved-restaurants {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#saved-restaurants .restaurants-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#saved-restaurants .restaurants-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#saved-restaurants .restaurants-box image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#saved-restaurants .restaurants-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: goldenrod;
+  background-color: wheat;
+}
