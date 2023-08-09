@@ -17,6 +17,7 @@
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
+  cursor: pointer;
 }
 
 #saved-restaurants .restaurants-box:hover {
